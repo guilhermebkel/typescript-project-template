@@ -1,0 +1,8 @@
+# Libs
+node_modules
+
+# Built files
+dist
+
+# Coverage Report
+coverage

@@ -1,0 +1,22 @@
+{
+	"extends": "standard-with-typescript",
+	"parserOptions": {
+		"project": "./tsconfig.eslint.json"
+	},
+	"rules": {
+		"@typescript-eslint/strict-boolean-expressions": "off",
+		"@typescript-eslint/no-floating-promises": "off"
+	},
+	"parser": "@typescript-eslint/parser",
+	"settings": {
+		"import/extensions": [".ts", ".js"],
+		"import/parsers": {
+			"@typescript-eslint/parser": [".ts", ".js"]
+		},
+		"import/resolver": {
+			"typescript": {
+				"alwaysTryTypes": true
+			}
+		}
+	}
+}
