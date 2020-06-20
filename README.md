@@ -45,6 +45,8 @@ npm run dev:resources
 
 **4. Git Hooks:** With help of Husky (.huskyrc.json), all Git Commits are verified by tests and the git commit linter in order to ensure they follow the Git Karma principles. Besides, all Git Pushes are verified by a full test pipeline.
 
+**5. Code Style and Code Quality Assurance:** With help of ESLint (.eslintrc.json), all the code inside source folder are verified in order to make sure it follows the rules you have set.
+
 ## 🔧 Technologies
 
 - Typescript
